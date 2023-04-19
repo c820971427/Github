@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 des: modify camera_tool's userConf.json file
 auther: Mr.Chen
@@ -6,16 +7,28 @@ date: 2023-4-15
 import os
 import json
 import shutil
-import jsonlines
 
 
-# def modifyUserConfFile(filename: str):
-#     with open('filename', 'w') as f:
-#         contents = f.read()
-#         print(contents)
-
-# cameraJsonData = json.loads(filename)
-# print(cameraJsonData)
+def modifyUserConfFile(filename: str):
+    with open(filename, 'r', encoding='utf-8') as f:
+        json_list = json.load(f)
+        for j in json_list:
+            if 'A' in j['slotId'] or 'B' in j['slotId'] or 'D' in j['slotId']:
+                try:
+                    del j['ldc']
+                except KeyError:
+                    pass
+                j['rawPub'] = 'true'
+                j['instanceId'] += 1000
+        f.close()
+    with open(filename, 'w', encoding='utf-8') as fw:
+        fw.write('[\n')
+        for j in json_list:
+            json.dump(j, fw, indent=4, ensure_ascii=False)
+            if 'D1' not in j['slotId']:
+                fw.write(',\n')
+        fw.write('\n]')
+        fw.close()
 
 
 def run():
@@ -29,29 +42,7 @@ def run():
         # os.popen(f'cp userConf.json userConf.json.bk')
         print('hello word!')
     print(filename)
-    with open(filename, 'r') as f:
-        # for item in jsonlines.Reader(f):
-        #     print(item)
-        contents = f.read()
-        # f.close()
-        result = json.loads(contents)
-        # # content_
-        print(result)
-        result["cameraID"] = 1021
-        result["rawPub"] = True
-        try:
-            del result["ldc"]
-        except KeyError:
-            pass
-        print(result)
-    with open(filename, 'w') as fw:
-        json.dump(result, fw, indent=4, ensure_ascii=False)
-        fw.close()
-
-    # with open(filename, 'w') as ft:
-    #     ft.write()
-
-    # modifyUserConfFile(filename)
+    modifyUserConfFile(filename)
 
 
 if __name__ == '__main__':
