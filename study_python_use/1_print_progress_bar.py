@@ -5,6 +5,7 @@ date: 2023-3-18
 """
 import time
 from tqdm import tqdm
+
 # from progressbar import progressbar
 
 # 第一种方式
@@ -32,7 +33,6 @@ def Run():
 
 
 Run()
-
 
 # def Run_1():
 #     for i in progressbar(range(100)):

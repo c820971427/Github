@@ -13,7 +13,7 @@ if pdfReader.is_encrypted:  # 取代 pdfReader.isEncrypted
 # pdfReader.decrypt('rosebud')
 # pdf2File = open('../tmp_files/copy_pdf.pdf', 'rb')
 # pdf2Reader = PyPDF2.PdfReader(pdf2File)
-pdfWriter =PyPDF2.PdfWriter() # 取代 pdfWriter =PyPDF2.PdfFileWriter()
+pdfWriter = PyPDF2.PdfWriter()  # 取代 pdfWriter =PyPDF2.PdfFileWriter()
 
 for pageNum in range(len(pdfReader.pages)):  # 取代 (pdfReader.numPages)
     pageObj = pdfReader.pages[pageNum]
@@ -23,4 +23,3 @@ pdfOutputFile = open('../tmp_files/copy_pdf.pdf', 'wb')
 pdfWriter.write(pdfOutputFile)
 pdfOutputFile.close()
 pdfFile.close()
-

@@ -23,8 +23,3 @@ csvWriter = csv.writer(csvFileObj)
 for row in csvRows:
     csvWriter.writerow(row)
 csvFileObj.close()
-
-
-
-
-

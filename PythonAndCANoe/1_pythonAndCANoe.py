@@ -12,6 +12,7 @@ class CANoe:
     def __init__(self):
         self.application = None
         self.application = DispatchEx("CANoe.Application")
+        # self.application.Configuration.Modified = False
         print(type(self.application.Version))
         self.version = self.application.Version
         print(self.version)
@@ -148,13 +149,13 @@ app.start_Measurement()
 #     if bwm_test == 2:
 #         app.set_EnvVar("en_bwm_test", 10)
 
-while not msvcrt.kbhit():
-    EngineSpeedDspMeter = app.get_SysVar("Demo","VehSpd")
-    print(EngineSpeedDspMeter)
-    if EngineSpeedDspMeter == 0:
-        # app.set_SysVar("Engine","EngineSpeedDspMeter",3)  #这里曾将出现问题许久没解决
-        app.set_SysVar("Demo","VehSpd",3)
-    app.DoEvents()
+# while not msvcrt.kbhit():
+#     EngineSpeedDspMeter = app.get_SysVar("Demo","VehSpd")
+#     print(EngineSpeedDspMeter)
+#     if EngineSpeedDspMeter == 0:
+#         # app.set_SysVar("Engine","EngineSpeedDspMeter",3)  #这里曾将出现问题许久没解决
+#         app.set_SysVar("Demo","VehSpd",3)
+#     app.DoEvents()
 
 # app.close_cfg()
 print(app.Measurement)

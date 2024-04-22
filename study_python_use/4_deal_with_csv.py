@@ -1,6 +1,5 @@
 import csv
 
-
 outputFile = open('../tmp_files/output.csv', 'w', newline='')
 outputWriter = csv.writer(outputFile, delimiter='\t', lineterminator='\n\n')
 outputWriter.writerow(['spam', 'eggs', 'bacon', 'ham'])

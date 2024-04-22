@@ -3,7 +3,6 @@ import threading
 import subprocess
 
 
-
 def takeANap():
     time.sleep(5)
     print('Wake up!')
