@@ -2,14 +2,13 @@ import keyword
 
 print(keyword.kwlist, end='')
 
-# print("100到1000之前的所有水仙花数如下： ")
-# for i in range(100, 1000):
-#     x = i // 100
-#     y = i // 10 % 10
-#     z = i % 10
-#     if x ** 3 + y ** 3 + z ** 3 == i:
-#         print(f'{i}是水仙花数')
-
+print("100到1000之前的所有水仙花数如下： ")
+for i in range(100, 1000):
+    x = i // 100
+    y = i // 10 % 10
+    z = i % 10
+    if x ** 3 + y ** 3 + z ** 3 == i:
+        print(f'{i}是水仙花数')
 
 # import threading
 # from time import sleep,ctime
