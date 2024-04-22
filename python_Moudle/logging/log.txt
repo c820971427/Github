@@ -1,0 +1,8 @@
+2024-01-20 13:46:37,353 - __main__ - INFO - Start print log
+2024-01-20 13:46:37,354 - __main__ - WARNING - Something maybe fail.
+2024-01-20 13:46:37,354 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "D:\my_temporary_files\Github\python_Moudle\logging\2streamHandler.py", line 22, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2024-01-20 13:46:37,354 - __main__ - INFO - Finish

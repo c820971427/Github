@@ -1,0 +1,9 @@
+2024-01-20 13:29:40,148 - 1.test_logging.py- SWMU - INFO - Start print log
+2024-01-20 13:29:40,148 - 1.test_logging.py- SWMU - WARNING - Something maybe fail.
+2024-01-20 13:29:40,148 - 1.test_logging.py- SWMU - INFO - Finish
+2024-01-20 13:30:42,455 - 1.test_logging.py- SWMU - INFO - Start print log
+2024-01-20 13:30:42,455 - 1.test_logging.py- SWMU - WARNING - Something maybe fail.
+2024-01-20 13:30:42,455 - 1.test_logging.py- SWMU - INFO - Finish
+2024-01-20 13:30:49,590 - 1.test_logging.py- SWMU - INFO - Start print log
+2024-01-20 13:30:49,590 - 1.test_logging.py- SWMU - WARNING - Something maybe fail.
+2024-01-20 13:30:49,590 - 1.test_logging.py- SWMU - INFO - Finish

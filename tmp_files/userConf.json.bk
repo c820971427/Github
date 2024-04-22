@@ -1,0 +1,130 @@
+[
+{
+    "slotId": "A1",
+    "instanceId": 5021,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side",
+    "rawPub": "true"
+},
+{
+    "slotId": "A2",
+    "instanceId": 5022,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side",
+    "rawPub": "true"
+},
+{
+    "slotId": "A3",
+    "instanceId": 5023,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side",
+    "rawPub": "true"
+},
+{
+    "slotId": "A4",
+    "instanceId": 5024,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side",
+    "rawPub": "true"
+},
+{
+    "slotId": "B1",
+    "instanceId": 5025,
+    "fov": 30,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side",
+    "rawPub": "true"
+},
+{
+    "slotId": "B2",
+    "instanceId": 5026,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side",
+    "rawPub": "true"
+},
+{
+    "slotId": "C1",
+    "instanceId": 29,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side"
+},
+{
+    "slotId": "C2",
+    "instanceId": 30,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side"
+},
+{
+    "slotId": "C3",
+    "instanceId": 31,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side"
+},
+{
+    "slotId": "C4",
+    "instanceId": 32,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side"
+},
+{
+    "slotId": "D1",
+    "instanceId": 5033,
+    "fov": 60,
+    "fps": 20,
+    "res": {
+        "height": 3840,
+        "width": 2160
+    },
+    "pqVersion": "side",
+    "rawPub": "true"
+}
+]

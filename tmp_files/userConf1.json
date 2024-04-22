@@ -1,0 +1,151 @@
+[
+  {
+    "slotId": "A1",
+    "instanceId": 21,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "ldc": {
+      "cgridFlag": true,
+      "cgridFile": "/opt/cfg/conf/camera_app/cgrid_A1.json"
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "A2",
+    "instanceId": 22,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "ldc": {
+      "cgridFlag": true,
+      "cgridFile": "/opt/cfg/conf/camera_app/cgrid_A1.json"
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "A3",
+    "instanceId": 23,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "ldc": {
+      "cgridFlag": true,
+      "cgridFile": "/opt/cfg/conf/camera_app/cgrid_A1.json"
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "A4",
+    "instanceId": 24,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "ldc": {
+      "cgridFlag": true,
+      "cgridFile": "/opt/cfg/conf/camera_app/cgrid_A1.json"
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "B1",
+    "instanceId": 25,
+    "fov": 30,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "ldc": {
+      "cgridFlag": true,
+      "cgridFile": "/opt/cfg/conf/camera_app/cgrid_A1.json"
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "B2",
+    "instanceId": 26,
+    "fov": 120,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "ldc": {
+      "cgridFlag": true,
+      "cgridFile": "/opt/cfg/conf/camera_app/cgrid_A1.json"
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "C1",
+    "instanceId": 29,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "C2",
+    "instanceId": 30,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "C3",
+    "instanceId": 31,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "C4",
+    "instanceId": 32,
+    "fov": 180,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "pqVersion": "side"
+  },
+  {
+    "slotId": "D1",
+    "instanceId": 33,
+    "fov": 60,
+    "fps": 20,
+    "res": {
+      "height": 3840,
+      "width": 2160
+    },
+    "ldc": {
+      "cgridFlag": true,
+      "cgridFile": "/opt/cfg/conf/camera_app/cgrid_A1.json"
+    },
+    "pqVersion": "side"
+  }
+]
